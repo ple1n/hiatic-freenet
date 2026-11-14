@@ -12,3 +12,6 @@ Room state can be stored in many ways, more centralized or dispersed among Freen
 - Dispersion increases attack-resistance, as it can be designed such that many contract locations are known only to chat participants. 
 
 Freenet is not meant to be used for large file storage, voice calls, etc. 
+
+Rooms are to be rotated as chat log grows
+
