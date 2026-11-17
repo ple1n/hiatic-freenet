@@ -1,0 +1,23 @@
+[package]
+name = "hiatic-crypto"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = ["actor"]
+actor = ["dep:tokio"]
+
+[dependencies]
+chacha20poly1305 = "0.11.0"
+ed25519-dalek = "3.0.0"
+falcon-rs = "0.3.1"
+getrandom = "0.4.3"
+hmac = "0.13.0"
+hpke = "0.15.1"
+rand_chacha = "0.10.0"
+sha2 = "0.11.1"
+tokio = { version = "1.54.1", optional = true, features = ["rt", "sync"] }
+zeroize = "1.9.1"
+
+[dev-dependencies]
+tokio = { version = "1.54.1", features = ["macros", "rt"] }

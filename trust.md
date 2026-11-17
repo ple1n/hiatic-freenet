@@ -73,3 +73,13 @@ State update is de facto done through that verifiers update their set of *accept
 Authors publish new signed statements regularly, and time isn't an inherent concept in this system.
 
 There may be a special kind of adaptors that convert stale evidence to new evidence. 
+
+# In favor of max reputation path, and against negative reputation. 
+
+It's been shown to be hard to construct state aggregation proofs against potentially internet-wide reputation data about a person. (see FRI polynomimal commitment etc stuff).
+
+Proving an aggregated, total reputation about a person is hard too, since this involves many root commitments. 
+
+It's easiest if a person can show a reputation proof, for whatever proof he can construct through whatever paths, to show a maxmimal value that he can do, against a specific context or a vector of input context.
+
+The person also tries to prove a claim of minimal staleness regarding sources he can obtain.

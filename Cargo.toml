@@ -1,0 +1,3 @@
+[workspace]
+members = ["hiatic-crypto", "hiatic-proofs", "hiatic-prover"]
+resolver = "3"
